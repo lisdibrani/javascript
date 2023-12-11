@@ -38,6 +38,6 @@ void loop() {
     Serial.print(result);
     Serial.println(" wins!");
     delay(3000);
-    setup();  // reset the game
+    setup(reset);  // reset the game
   }
 }
